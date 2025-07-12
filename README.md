@@ -1,12 +1,145 @@
-# React + Vite
+# 🍸 JSM Cocktail Lounge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern cocktail-themed website built as part of a [JavaScript Mastery](https://www.jsmastery.pro/) tutorial to enhance skills in **GSAP animations**, **modular JavaScript**, and **responsive UI styling**. This project showcases smooth motion effects, engaging visuals, and clean UI layout — ideal for a premium cocktail bar or mocktail lounge.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🚀 Smooth GSAP scroll-based animations
+- 🎨 Stylish, modern UI using semantic HTML & CSS
+- 🍹 Dynamic sections with reusable content arrays
+- 💬 Mocktail & Cocktail showcase with pricing and details
+- 📍 Store location & opening hours
+- 👥 Community profile image carousel
+- 🌐 Social media links & drink sliders
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/
+│   └── images/           # Profile and drink images
+├── data/
+│   └── index.js          # All content (cocktails, links, socials, etc.)
+├── components/
+│   └── ...               # Reusable UI components
+├── App.js
+└── main.js
+
+🔧 Data Breakdown
+
+Here’s how data is structured in the project:
+📌 Navigation
+
+navLinks = [ "Cocktails", "About Us", "The Art", "Contact" ];
+
+🍹 Cocktail Listings
+
+Includes name, country, detail, and price fields for both:
+
+    cocktailLists – Alcoholic drinks
+
+    mockTailLists – Non-alcoholic drinks
+
+🧑‍🤝‍🧑 Profile Avatars
+
+profileLists = [ "/images/profile1.png", ... ];
+
+🌟 Feature Highlights
+
+featureLists = [
+ "Perfectly balanced blends",
+ "Garnished to perfection",
+ "Ice-cold every time",
+ "Expertly shaken & stirred"
+];
+
+🧪 Quality Ingredients
+
+goodLists = [
+ "Handpicked ingredients",
+ "Signature techniques",
+ "Bartending artistry in action",
+ "Freshly muddled flavors"
+];
+
+🕰️ Opening Hours
+
+openingHours = [
+ { day: "Mon–Thu", time: "11:00am – 12am" },
+ { day: "Fri", time: "11:00am – 2am" },
+ ...
+];
+
+📫 Contact Info
+
+storeInfo = {
+ heading: "Where to Find Us",
+ address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+ contact: {
+   phone: "(555) 987-6543",
+   email: "hello@jsmcocktail.com"
+ }
+};
+
+📲 Socials
+
+socials = [ "Instagram", "X (Twitter)", "Facebook" ];
+
+🖼️ Slider Section
+
+sliderLists = [
+ { name: "Classic Mojito", title: "...", description: "...", image: "..." },
+ ...
+];
+
+🛠️ Technologies Used
+
+    JavaScript (ES6+)
+
+    React.Js
+
+    GSAP + ScrollTrigger
+
+    HTML5 & CSS3
+
+    Responsive Design Principles
+
+    Vite (for bundling)
+
+📚 What I’m Learning
+
+This project is helping me grow in:
+
+    Writing modular and scalable frontend code
+
+    Implementing smooth UI motion with GSAP
+
+    Structuring content-driven UIs from data objects
+
+    Practicing responsive layout & interactive sections
+
+    Enhancing my attention to visual details and transitions
+
+🚀 Getting Started
+
+    Clone this repo
+
+git clone https://github.com/Joshuakibwage/gsap-landing.git
+cd gsap-landing
+
+Install dependencies
+
+npm install
+
+Run locally
+
+    npm run dev
+
+🙌 Acknowledgments
+
+Thanks to JavaScript Mastery for the tutorial inspiration and creative direction.
+📸 Preview
+
+    (Add screenshots or a live demo link here if available)
