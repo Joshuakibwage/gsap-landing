@@ -18,9 +18,9 @@ A sleek, modern cocktail-themed website built as part of a [JavaScript Mastery](
 
 ```bash
 src/
-├── assets/
+├── public/
 │   └── images/           # Profile and drink images
-├── data/
+├── constants/
 │   └── index.js          # All content (cocktails, links, socials, etc.)
 ├── components/
 │   └── ...               # Reusable UI components
@@ -53,24 +53,8 @@ featureLists = [
  "Garnished to perfection",
  "Ice-cold every time",
  "Expertly shaken & stirred"
-];
 
-🧪 Quality Ingredients
-
-goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors"
-];
-
-🕰️ Opening Hours
-
-openingHours = [
- { day: "Mon–Thu", time: "11:00am – 12am" },
- { day: "Fri", time: "11:00am – 2am" },
- ...
-];
+---
 
 📫 Contact Info
 
@@ -83,16 +67,7 @@ storeInfo = {
  }
 };
 
-📲 Socials
-
-socials = [ "Instagram", "X (Twitter)", "Facebook" ];
-
-🖼️ Slider Section
-
-sliderLists = [
- { name: "Classic Mojito", title: "...", description: "...", image: "..." },
- ...
-];
+---
 
 🛠️ Technologies Used
 
@@ -102,7 +77,7 @@ sliderLists = [
 
     GSAP + ScrollTrigger
 
-    HTML5 & CSS3
+    HTML5 , CSS3 & TailwindCSS
 
     Responsive Design Principles
 
@@ -142,4 +117,4 @@ Run locally
 Thanks to JavaScript Mastery for the tutorial inspiration and creative direction.
 📸 Preview
 
-    (Add screenshots or a live demo link here if available)
+    ![thumbnail](public/readme/hero.png)
